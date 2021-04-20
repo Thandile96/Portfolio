@@ -1,0 +1,132 @@
+.main{
+    /* background-color:burlywood; */
+}
+.front-end {
+    background-color:black;
+}
+.left {
+    background-color: white;
+}
+.right {
+    background-color: aqua;
+}
+
+
+.dtls{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.main-page .coloumn{
+    display: block;
+}
+.about h1 {
+    font-size: 50px;
+}
+.buttons {
+  display: flex;
+}
+.buttons button{
+    width: 200px;
+    padding: 10px;
+    border: 7px solid blue;
+    background-color: transparent;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.text {
+    text-align: justify;
+}
+.icons{
+    margin-top: 40px;
+}
+.icons span {
+    background-color: blue;
+    color: white;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+
+  /* .container {
+    padding: 2px 16px;
+  } */
+  .row{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-top: 50px;
+  }
+  .column {
+      width: 50%;
+      height: 280px;
+    
+  }
+  .left{
+      text-align: justify;
+      font-weight: lighter;
+      padding-top: 0;
+      padding: 20px;
+  }
+
+  .column img{
+      border-radius: 100%;
+      /* background-image: url("about.jpg"); */
+      height: 300px;
+      width: 300px;
+  }
+.line
+{
+    font-size: 40px;
+    color: blue;
+    border-left: 7px solid blue;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+  .left h1 {
+      color: blue;
+      border-left: 7px solid blue;
+      padding-left: 10px;
+  }
+
+  .left a {
+      border: 5px solid blue;
+      padding: 10px;
+      width: 300px;
+      color: blue;
+  }
+.space {
+    margin-bottom: 50px;
+}
+
+  .basic {
+    background-image: url("images/html&css.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.bootcamp {
+    background-image: url("images/tdd_mocha_chai.webp");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    height: 400px;
+}
+
+.dom {
+    background-image: url("images/domPic.jpg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+
+}
+
