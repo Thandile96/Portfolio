@@ -1,8 +1,8 @@
-.main{
-    /* background-color:burlywood; */
-}
+/*.main{
+    background-color:burlywood; */
+
 .front-end {
-    background-color:black;
+    background-color:antiquewhite;
 }
 .left {
     background-color: white;
@@ -101,7 +101,7 @@ a{
   .left a {
       border: 5px solid blue;
       padding: 10px;
-      width: 300px;
+      width: 350px;
       color: blue;
   }
 .space {
@@ -111,7 +111,9 @@ a{
   .basic {
     background-image: url("images/html&css.jpg");
     background-repeat: no-repeat;
-    height: 450px;
+    background-size: cover;
+    height: 320px;
+    background-position: center;
 
 }
 
@@ -119,14 +121,80 @@ a{
     background-image: url("images/tdd_mocha_chai.webp");
     background-repeat: no-repeat;
     /* background-position: center; */
-    background-size: contain;
-    height: 400px;
+    background-size: cover;
+    height: 320px;
+    background-position: center;
 }
 
 .dom {
     background-image: url("images/domPic.jpg");
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: initial;
+    height: 320px;
+    background-position: center;
 
 }
+
+@media (max-width: 540px) {
+ .main-page {
+     width: 100%;
+ }
+ .row {
+     display: block;
+     width: 100%;
+ }
+ .div1 {
+     width: 50%;
+ }
+ .div1 .icons {
+     margin-top: 27em;
+     display: flex;
+     /* position: fixed; */
+     
+ } 
+ .about {
+     width: 50%;
+     margin-top: 15em;
+ }
+ .text{
+     display: block;
+     width: 180%;
+     overflow-wrap: hidden;
+ }
+ .buttons button{
+    width: 107px;
+    padding: 7px;
+    border: 4px solid blue;
+    background-color: transparent;
+    border-radius: 40px;
+    margin: 3px;
+   }
+}
+
+@media (max-width: 540px) {
+.front-end {
+    display: inline;
+    width: 100%;
+}
+.section{
+    width: 33.3%;
+}
+.left {
+    width: 90%;
+}
+.right {
+    width: 100%;
+}
+/* .basic {
+    background-image: url("images/html&css.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 320px;
+    background-position: center;
+
+}  */
+
+}
+    
+
 
