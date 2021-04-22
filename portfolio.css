@@ -25,6 +25,9 @@ a{
 .about h1 {
     font-size: 50px;
 }
+.div1 h1 {
+  margin-right: 4em;
+}
 .buttons {
   display: flex;
 }
@@ -44,23 +47,27 @@ footer {
     text-align: center;
     padding: 3px;
     /* background-color: whitesmoke; */
-    color: white;
-    margin-top: 14em;
-    margin-right: 58em;
+    color: black;
+    margin-top: 11em;
+    margin-right: 45em;
+    margin-left: 7em;
+    /* display: flex; */
   }
 
-.icons{
-    margin-top: 40px;
-}
-.icons span {
+.icons ul a {  
+
     margin: 7px;
     font-size: 2em;
+    color: black;
+    
 }
 
+ul {
+    list-style: none;
+    display: flex;
 
-  /* .container {
-    padding: 2px 16px;
-  } */
+}
+
   .row{
       width: 80%;
       margin: auto;
@@ -85,6 +92,7 @@ footer {
       height: 300px;
       width: 300px;
   }
+
 .line
 {
     font-size: 40px;
